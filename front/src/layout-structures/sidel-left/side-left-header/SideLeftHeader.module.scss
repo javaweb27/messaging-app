@@ -1,0 +1,33 @@
+.list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0.46rem;
+  border-radius: 6px;
+  background-color: rgba(70, 70, 70, 0.8);
+  backdrop-filter: blur(3px);
+
+  button:hover + &,
+  &:hover {
+    display: block;
+  }
+
+  li {
+    border-radius: 4px;
+    transition: 0.06s;
+    &:hover {
+      background-color: rgba(46, 46, 46, 0.9);
+    }
+    &:active {
+      background-color: rgba(46, 46, 46, 0.9);
+      filter: brightness(0.6);
+    }
+  }
+
+  button {
+    text-align: left;
+    padding: 0.27rem 0.6rem;
+    width: 100%;
+  }
+}

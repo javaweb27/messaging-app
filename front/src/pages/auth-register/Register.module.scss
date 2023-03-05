@@ -1,0 +1,16 @@
+.section {
+  width: min(100%, 460px);
+  padding: 0 0.6rem;
+  // height: 100%;
+  margin: auto;
+  margin-inline: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.link {
+  color: #6495ed;
+  text-decoration: underline;
+}

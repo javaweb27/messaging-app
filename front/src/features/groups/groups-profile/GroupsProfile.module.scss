@@ -1,0 +1,51 @@
+.groupName {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 0;
+}
+
+.menuContainer {
+  position: relative;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  padding: 0.4rem;
+  border-radius: 6px;
+  background-color: rgb(27, 29, 30);
+  top: 100%;
+  right: 0;
+
+  &IsActive {
+    display: block;
+  }
+
+  &Item {
+    list-style: none;
+
+    button {
+      white-space: nowrap;
+    }
+  }
+
+  &ItemBtn {
+    white-space: nowrap;
+    width: 100%;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    background-color: rgb(27, 29, 30);
+    &:hover {
+      filter: brightness(1.4);
+    }
+  }
+}

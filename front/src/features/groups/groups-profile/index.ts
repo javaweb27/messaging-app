@@ -1,0 +1,1 @@
+export { GroupsProfile } from "./GroupsProfile"

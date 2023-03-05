@@ -1,0 +1,91 @@
+.form {
+  font-size: 1.12em;
+}
+
+.label {
+  margin: 0.4em 0;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  background-color: #2f2f2f;
+  padding: 0.29rem 0.46rem;
+  border-radius: 6px;
+  font-size: 1.12rem;
+
+  outline: none;
+  border: 2.1px solid transparent;
+
+  &.error {
+    border-color: red;
+  }
+
+  &:focus {
+    border-color: white;
+  }
+}
+
+.inputWithIcon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .input {
+    padding-right: calc(19px + 1rem);
+  }
+}
+
+.btnIcon {
+  position: absolute;
+  margin-right: 0.4rem;
+  // align-self: center;
+  // justify-self: flex-start;
+  // margin-left: auto;
+}
+
+.icon {
+  display: block;
+  width: 26px;
+  height: 26px;
+}
+
+.btnSubmit {
+  font-weight: 700;
+  margin: 1rem 0;
+  padding: 10px 6px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: #6495ed;
+
+  &:hover {
+    background-color: #3f7be9;
+  }
+
+  &Disabled {
+    background-color: rgb(92, 92, 92);
+
+    &:hover {
+      cursor: not-allowed;
+      background-color: rgb(79, 79, 79);
+    }
+  }
+}
+
+.inputMsgSuccess {
+  margin-left: 6px;
+  font-size: 0.9em;
+  color: rgb(8, 167, 101);
+}
+
+.inputMsgError {
+  margin-left: 6px;
+  font-size: 0.9em;
+  color: rgb(243, 32, 32);
+}
+.inputMsgInvisible {
+  margin-left: 6px;
+  font-size: 0.9em;
+  color: transparent;
+}

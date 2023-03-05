@@ -1,0 +1,41 @@
+.container {
+  padding: 6px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.inputText {
+  background-color: rgb(52, 52, 52);
+  padding: 1px 3px;
+  border-radius: 6px;
+}
+
+.btnCreate,
+.btnToggle {
+  padding: 0.27rem 0.4rem;
+  border-radius: 6px;
+  margin: 6px 0;
+  width: 98%;
+}
+
+.btnCreate {
+  background-color: white;
+  color: black;
+
+  &:hover {
+    background-color: hsl(0, 0%, 80%);
+  }
+}
+
+.btnToggle {
+  background-color: hsl(200, 6%, 23%);
+  width: 98%;
+
+  &:hover {
+    background-color: hsl(200, 6%, 27%);
+  }
+}

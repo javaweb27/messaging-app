@@ -1,0 +1,38 @@
+.item {
+  padding: 0.6rem;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(64, 64, 64);
+  }
+  &.isActive {
+    background-color: rgb(26, 26, 27);
+  }
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.lastMessage {
+  color: rgb(183, 183, 183);
+}
+
+.newMessage {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.96rem;
+  // text-align: center;
+  // vertical-align: middle;
+  &.isActive {
+    background-color: green;
+  }
+}

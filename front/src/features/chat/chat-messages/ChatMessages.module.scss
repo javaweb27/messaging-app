@@ -1,0 +1,33 @@
+.list {
+  margin-top: auto;
+  padding: 0.4rem 0.6rem;
+}
+
+.msgFromMe,
+.msgFromTarget {
+  width: 80%;
+  padding: 0.6rem;
+  border-radius: 16px;
+  margin-bottom: 0.6rem;
+}
+
+.msgFromMe {
+  text-align: right;
+  margin-left: auto;
+}
+
+.msgFromTarget {
+  text-align: left;
+  background-color: rgb(27, 24, 106);
+}
+
+.nickname {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.noMessages {
+  font-size: 1.05em;
+  text-align: center;
+  margin-bottom: 1rem;
+}

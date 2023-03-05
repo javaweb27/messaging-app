@@ -1,0 +1,21 @@
+.menu {
+  border-radius: 16px;
+  background-color: rgb(26, 26, 26);
+  padding: 0.61rem;
+  &Item {
+    padding: 0.4rem 0.27rem;
+    transition: 0.19s;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+
+    &:hover {
+      background-color: rgb(60, 60, 60);
+    }
+    &:active {
+      background-color: rgb(54, 54, 54);
+      filter: brightness(0.8);
+    }
+  }
+}

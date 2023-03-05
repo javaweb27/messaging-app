@@ -1,0 +1,21 @@
+.list {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  background-color: rgb(25, 26, 28);
+  border-radius: 6px;
+}
+
+.btn {
+  padding: 0.4rem 0.6rem;
+  border-bottom: 2px transparent solid;
+
+  &:hover {
+    color: rgb(160, 160, 160);
+  }
+
+  &.isActive {
+    border-color: white;
+    color: white;
+  }
+}

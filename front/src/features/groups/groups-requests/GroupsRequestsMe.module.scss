@@ -1,0 +1,33 @@
+.item {
+  padding: 0.6rem 0.4rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.6rem;
+  padding-top: 0.6rem;
+}
+
+.btnCancel,
+.btnVisitGroup {
+  width: 100%;
+  padding: 0.19rem 0.6rem;
+  border-radius: 6px;
+}
+
+.btnCancel {
+  background-color: hsl(200, 6%, 23%);
+
+  &:hover {
+    background-color: hsl(200, 6%, 27%);
+  }
+}
+
+.btnVisitGroup {
+  background-color: white;
+  color: black;
+
+  &:hover {
+    background-color: rgb(213, 213, 213);
+  }
+}
